@@ -40,3 +40,42 @@ Lastly, We are making an "Engineer Folder". I will Hwo to only add A ceratin gro
  To access the server folders on client-1 we use the seacrh bar in file explore. We type the domain controller host name. In our case "\\dc-1".
   
   </p>
+  
+  <p>
+    <img/ src = "https://i.imgur.com/0y1SiQh.png" height ="80%" width = "80%" alt= "File Share img"/>
+    
+  </p>
+    
+ <p> 
+  Here we see that a read file was created in DC-1.
+  </p>
+  
+  <p>
+    <img/ src = "https://i.imgur.com/KeozTxR.png" height ="80%" width = "80%" alt= "File Share img"/>
+    
+  </p>
+    
+ <p> 
+ On client one we see that all our files appear. For our example we also read is accessable but Client-1's user cant make anychanges but can view the file.
+  
+  </p>
+  
+  <p>
+    <img/ src = "https://i.imgur.com/8zda541.png" height ="80%" width = "80%" alt= "File Share img"/>
+    
+  </p>
+    
+ <p> 
+ To access the server folders on client-1 we use the seacrh bar in file explore. We type the domain controller host name. In our case "\\dc-1".
+  
+  </p>
+  
+  <p>
+    <img/ src = "https://i.imgur.com/8zda541.png" height ="80%" width = "80%" alt= "File Share img"/>
+    
+  </p>
+    
+ <p> 
+ To access the server folders on client-1 we use the seacrh bar in file explore. We type the domain controller host name. In our case "\\dc-1".
+  
+  </p>
