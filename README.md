@@ -23,16 +23,20 @@
 
 
 <p>
-  <img/ src = "https://i.imgur.com/j4L9yBj.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/dzMZNxt.png" height ="80%" width = "80%" alt= "File Share img"/>
   </p>
     
- <p>   Using microsoft Azure. I have created two Virtual machines. ONe our data Server named "DC-1" this is where our main windows server will be on. The other being "Client-1 " this client being our test cimputer to connect to our server that will contain Active directory. Now will need to test traffic for both the Client to DC.
+ <p>  To enable File Sharing and its permissons, fromm a Domian Controller folders to a clients. We first need to create our Folders in the Domain Controller(DC-1)
+  All are created in this pc C-Drive. One folder will be "Read Folder" Everyone can acces but only read. another, "Write Folder" All can view , write, and create files.These can be given access by everyone by right clicking then clicking on properties. Once we are here we click on Sharing. then press shar button. Once this pressed, we type "Domain Users". Press add. Be sure to set prmission  based on folders.  . Then we will have an admin folder in which only An admin can access. To do this we right click on Admin folder. We then click sharing tab. Once here we Cick share button. Then in presented search bar we rite and press add once "Domain Admins" is Written. Be sure to to click Permission level for this group is Read/Write. 
+Lastly, We are making an "Engineer Folder". I will Hwo to only add A ceratin group tom access a certain folder. In our case it being the Engineer Folder.
   </p>
   
    <p>
-  <img/ src = "https://i.imgur.com/FeHYRvE.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+    <img/ src = "blob:https://imgur.com/bd80fdb7-8569-43ec-9f3c-460fcca555e1" height ="80%" width = "80%" alt= "File Share img"/>
+    
   </p>
     
- <p>   First, Logging on to Client-1 we will need to ping Dc-1. We notice that no specfic traffic is reaching from client to DC.
-    we staart noticing by defualt ICMP4 traffic cannot be eastibalished from our DC-1(10.0.0.4). Now we need to enable this traffic in our DC-1
+ <p> 
+ To access the server folders on client-1 we use the seacrh bar in file explore. We type the domain controller host name. In our case "\\dc-1".
+  
   </p>
