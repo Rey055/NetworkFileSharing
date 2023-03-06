@@ -91,12 +91,3 @@ Now I will show how we can give only ceatain security group file permissions. Fi
   
   </p>
   
-  <p>
-    <img/ src = "https://i.imgur.com/1DbHt1l.png" height ="80%" width = "80%" alt= "File Share img"/>
-    
-  </p>
-    
- <p> 
-  In DC-1 we create a security group in Engineers Organized Unit.  Once created we have to add Jake to it. 
-  
-  </p>
