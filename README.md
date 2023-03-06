@@ -61,21 +61,21 @@ Lastly, We are making an "Engineer Folder". I will Hwo to only add A ceratin gro
   </p>
   
   <p>
-    <img/ src = "https://i.imgur.com/8zda541.png" height ="80%" width = "80%" alt= "File Share img"/>
+    <img/ src = "https://i.imgur.com/FoCsKZZ.png" height ="80%" width = "80%" alt= "File Share img"/>
     
   </p>
     
  <p> 
- To access the server folders on client-1 we use the seacrh bar in file explore. We type the domain controller host name. In our case "\\dc-1".
+Now I will show how we can give only ceatain security group file permissions. First we notice our user jake can't access "Engineer Folder". They need to. So we as an admin in active directory need to create a security group for our engineers.
   
   </p>
   
   <p>
-    <img/ src = "https://i.imgur.com/8zda541.png" height ="80%" width = "80%" alt= "File Share img"/>
+    <img/ src = "https://i.imgur.com/1DbHt1l.png" height ="80%" width = "80%" alt= "File Share img"/>
     
   </p>
     
  <p> 
- To access the server folders on client-1 we use the seacrh bar in file explore. We type the domain controller host name. In our case "\\dc-1".
+  In DC-1 we create a security group in Engineers Organized Unit.  Once created we have to add Jake to it. 
   
   </p>
