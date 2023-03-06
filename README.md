@@ -66,7 +66,28 @@ Lastly, We are making an "Engineer Folder". I will Hwo to only add A ceratin gro
   </p>
     
  <p> 
-Now I will show how we can give only ceatain security group file permissions. First we notice our user jake can't access "Engineer Folder". They need to. So we as an admin in active directory need to create a security group for our engineers.
+Now I will show how we can give only ceatain security group file permissions. First we notice our user jake can't access "Engineer Folder". They need to. So we as an admin in active directory need to create a security group for our engineers. So to do this we right click inn the Organized unit and right click in it and create a "group" it will be named Engineers, for our example. Once added we right click and click member tab.  Then we type in our desired user. In this case jake is the user.
+   Then once donme press add to them to the group.
+  
+  </p>
+  
+  <p>
+    <img/ src = "https://i.imgur.com/OrfZAZx.png" height ="80%" width = "80%" alt= "File Share img"/>
+    
+  </p>
+    
+ <p> 
+ In DC-1 we have a file to view for our Engineer. 
+  
+  </p>
+  
+  <p>
+    <img/ src = "https://i.imgur.com/Vf6oq43.png" height ="80%" width = "80%" alt= "File Share img"/>
+    
+  </p>
+    
+ <p> 
+ Now, as we see, jake can view the folders contents. They can ever edit to, based on the provided permissions of the folder.
   
   </p>
   
