@@ -27,8 +27,8 @@
   </p>
     
  <p>  To enable File Sharing and its permissons, fromm a Domian Controller folders to a clients. We first need to create our Folders in the Domain Controller(DC-1)
-  All are created in this pc C-Drive. One folder will be "Read Folder" Everyone can acces but only read. another, "Write Folder" All can view , write, and create files.These can be given access by everyone by right clicking then clicking on properties. Once we are here we click on Sharing. then press shar button. Once this pressed, we type "Domain Users". Press add. Be sure to set prmission  based on folders.  . Then we will have an admin folder in which only An admin can access. To do this we right click on Admin folder. We then click sharing tab. Once here we Cick share button. Then in presented search bar we rite and press add once "Domain Admins" is Written. Be sure to to click Permission level for this group is Read/Write. 
-Lastly, We are making an "Engineer Folder". I will Hwo to only add A ceratin group tom access a certain folder. In our case it being the Engineer Folder.
+  All are created in this pc C-Drive. One folder will be "Read Folder" Everyone can access but only read. another, "Write Folder" All can view , write, and create files.These can be given access by everyone by right clicking then clicking on properties. Once we are here we click on Sharing. then press shar button. Once this pressed, we type "Domain Users". Press add. Be sure to set prmission  based on folders.  . Then we will have an admin folder in which only An admin can access. To do this we right click on Admin folder. We then click sharing tab. Once here we Cick share button. Then in presented search bar we rite and press add once "Domain Admins" is Written. Be sure to to click Permission level for this group is Read/Write. 
+Lastly, We are making an "Engineer Folder". I will now to only add A ceratin group tom access a certain folder. In our case it being the Engineer Folder.
   </p>
   
    <p>
